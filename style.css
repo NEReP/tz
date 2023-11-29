@@ -1,0 +1,24 @@
+.names{
+   display: flex;
+   justify-content: space-around;
+ 
+   color: #ffff; 
+    border: #ffff 1px solid;
+ 
+   
+ }
+ div{
+   
+   padding: 10px;
+ }
+ .round{
+   display: flex;
+   justify-content: space-around;
+   color: #ffff; 
+ 
+ }
+ 
+ body{
+   background-color: #000;
+ }
+ 
