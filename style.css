@@ -19,6 +19,11 @@
  }
  
  body{
-   background-color: #000;
+   background-color: #7b1616;
  }
- 
+ .green{
+   background-color: green;
+ }
+ .blue{
+   background-color: blue;
+ }
