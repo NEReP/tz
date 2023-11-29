@@ -21,7 +21,6 @@ const getWhat = async () => {
  function show(e) {
    
    e.forEach((item) => {
-     console.log(item)
      const ddd = `<div  class="round"><span class='item ${item.id}'>${item.id}</span>
                   <span class='item ${item.symbol}'>${item.symbol}</span>
                   <spbn class='item ${item.name}'>${item.name}</span></div>`;
