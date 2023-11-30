@@ -30,11 +30,12 @@ const getWhat = async () => {
      
      if(item.symbol=='usdt'){
       let greenItem = document.querySelector(`.${item.symbol}`)
-      greenItem.classList.add('green')
+
+      greenItem.parentElement.classList.add('green')
      }
  
    });
-   let blue = document.querySelectorAll('.item')
+   let blue = document.querySelectorAll('.round')
    for (let i = 0; i < 5; i++) {
       blue[i].classList.add('blue')
 
