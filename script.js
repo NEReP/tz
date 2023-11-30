@@ -21,9 +21,10 @@ const getWhat = async () => {
  function show(e) {
    
    e.forEach((item) => {
-     const ddd = `<div  class="round"><span class='item ${item.id}'>${item.id}</span>
-                  <span class='item ${item.symbol}'>${item.symbol}</span>
-                  <spbn class='item ${item.name}'>${item.name}</span></div>`;
+     console.log(item)
+     const ddd = `<div class="round"><div class='item ${item.id}'>${item.id}</div>
+                  <div class='item ${item.symbol}'>${item.symbol}</div>
+                  <div class='item ${item.name}'>${item.name}</div></div>`;
  
      sss.insertAdjacentHTML('beforeend', ddd)
      
@@ -36,5 +37,6 @@ const getWhat = async () => {
    let blue = document.querySelectorAll('.item')
    for (let i = 0; i < 5; i++) {
       blue[i].classList.add('blue')
+
    }
  }
