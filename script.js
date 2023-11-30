@@ -37,7 +37,10 @@ const getWhat = async () => {
    });
    let blue = document.querySelectorAll('.round')
    for (let i = 0; i < 5; i++) {
-      blue[i].classList.add('blue')
+      if (!blue[i].contains("green")) {
+          blue[i].classList.add('blue')
+      }
+      
 
    }
  }
